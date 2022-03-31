@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="Hills_Style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <div class="ms-4">
+                <a class="navbar-brand d-flex" href="#"> 
+                    <img src="hills_image.jpg" style="width:50px" height="50px;" alt=""> 
+                    <h1>Hills Academy</h1>
+                </a>
+            </div>
+            <button type="button" class="navbar-toggler" 
+                data-bs-target="#navbarItems" data-bs-toggle="collapse"  >
+                    <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarItems">
+                <div class="me-auto"></div>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="aboutus.html"  class="nav-link">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contactus" class="nav-link">Contact Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" 
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Student's Portal
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="login.html">Log In</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="signup.html">Sign up as a new student</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div> 
+        </div>    
+    </nav>
+    <div class="container-fluid">
+        <div class="row joy" style="height: 100vh">
+            <div class="col-8 col-md-4 my-auto mx-auto text-center py-4" style="height: 70%; background-color: rgb(0, 113, 128); border-radius: 10% ;">
+                <h3 class="pot">Log In</h3>
+                <p class="toy">Input your username and password to sign in</p>
+            
+                <form action="">
+                    <label for="Username" class="text-start toy">Username</label>
+                    <input type="text" id="Username"> <br>
+                    <label for="Password" class="my-4 me-1 form-label toy">Password</label>
+                    <input type="password" id="Password"> <br>
+                    <p> <input type="checkbox" name="checkbox" id="checkbox">Remember Password </p> 
+                </form>
+                <div class="mx-auto" style="width: 100px; background-color: rgb(27, 52, 196);">
+                    <a href="" style= "text-decoration: none; color: rgb(143, 177, 165);">Log In</a>
+                </div> 
+                <br>
+                <p class="toy">Don't have an account yet, sign up  <a href="">here</a> </p>
+            </div>    
+        </div>
+    </div>
+    <footer class="text-center" id="contactus">
+        <div class="bg-dark py-2">
+            <h5 class="mb-3">Contact Us Today</h5>
+            <address style="margin: 0 auto;">Plot 45/47 Iyiocha Expressway, Awka, Anambra State</address>
+            <address style="margin: 0 auto;">email us: hillsacademy@gmail.com</address>
+            <a href="facebook.com"><i class="bi bi-facebook" style="font-size: 1.5em; color: rgb(71, 118, 150); margin-right: 0.5rem;"></i></a>
+            <a href="instagram.com"><i class="bi bi-instagram" style="font-size: 1.5em; color: rgb(71, 118, 150); margin-right: 0.5rem;"></i></a>
+            <a href="twitter.com"><i class="bi bi-twitter" style="font-size: 1.5em; color: rgb(71, 118, 150); margin-right: 0.5rem;"></i></a>
+        </div>
+        <div class="copyright py-3" style= "background-color: black;">
+            © 2022  Hills Academy, Awka. All Rights Reserved. Designed by Ugwu Hilary.
+        </div>
+    </footer>
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>

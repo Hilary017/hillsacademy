@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="Hills_Style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row text-c signup-form">
+            <div class="col-md-6 mx-auto">
+                <h2>Registration Form</h2>
+                <p>Kindly fill in correct information as required</p>
+                <form action="" class="needs-validation" novalidate>
+                  <h5 class="text-start mb-3">Personal Information</h5>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="validationCustom01" placeholder="First Name" required>
+                        <label for="validationCustom01">First Name</label>
+                        <p class="valid-feedback">Looks good</p>
+                        <p class="invalid-feedback">Please provide this detail</p>
+                    </div>
+    
+                    <div class="form-floating mb-3">
+                        <input type="text" id="validationCustom02" class="form-control" placeholder="Middle Name" required>
+                        <label for="validationCustom02" class="form-check-label">Middle Name</label>
+                        <p class="invalid-feedback">Please provide this detail</p>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" id="validationCustom03" class="form-control" placeholder="First Name" required>
+                    <label for="validationCustom03">Last Name</label>
+                    <p class="invalid-feedback">Please provide this detail</p>
+                    </div>
+                    <div class="mb-3 text-start">
+                        <label for="validationCustom04">Date of Birth</label>
+                        <input type="date" id="validationCustom04" class="form-contro" placeholder="date of birth" required>
+                        <p class="invalid-feedback">Please provide this detail</p>
+                    </div>
+                    <div class="mb-3">
+                        <select name="class" class="form-select" id="validationCustom05" required>
+                            <option value="">Class being admitted into</option>
+                            <option value="class">JSS 1</option>
+                            <option value="class">JSS 2</option>
+                            <option value="class">JSS 3</option>
+                            <option value="class">SSS 1</option>
+                            <option value="class">SSS 2</option>
+                            <option value="class">SSS 3</option>
+                        </select>
+                    </div>
+                    <div class="mb-3 text-start">
+                        <label for="gender" class="mb-2">Select your Gender</label> <br>
+                        <input type="radio" name="gender" id="Male"> Male <br>
+                        <input type="radio" name="gender" id="Female"> Female <br>
+                        <input type="radio" name="gender" id="Transgender"> Transgender <br>
+                        <!-- <input type="radio" name="transgender" id="gender">Transgender -->
+                    </div>
+                    <hr>
+                    <h5 class="text-start mb-3">
+                      Educational Qualification
+                    </h5>
+                    <div class="text-start form-floating">
+                      <textarea name="" class="form-control" placeholder="Primary School Attended" id="Primary School" cols="40" rows="5"></textarea> <br> <br>
+                      <label for="">Primary School Attended</label>
+                    </div>
+                    <div class="text-start mb-3">
+                      <label for="year">Year Completed</label>
+                      <input type="month" name="year" id="year" required>
+                      <p class="invalid-feedback">Please provide this detail</p> <br>
+                      <label for="certificate">Upload First School Leaving Certificate</label> <br> <br>
+                      <input type="file" required>
+                      <p class="invalid-feedback">Please provide this detail</p>
+
+                    </div>
+                    <div class="text-start">
+                      <h5 class="mb-3">Extra Currucula Activities</h5>
+                      <label for="hobbies">Hobbies</label> <br>
+                      <input type="checkbox" value="Swimming"> Reading <br>
+                      <input type="checkbox" name="" id=""> Cycling <br>
+                      <input type="checkbox" name="" id=""> Singing <br>
+                      <input type="checkbox" name="" id=""> Dancing <br>
+                      <input type="checkbox" name="" id=""> Acting <br>
+                      <input type="checkbox" name="" id=""> Hiking <br>
+                      <div class="form-floating my-3">
+                        <textarea name="Others" id="" cols="40" rows="5" class="form-control" placeholder="Others"></textarea>
+                        <label for="others">Others</label>
+                      </div>
+                    </div>
+                    
+                    <p><input type="checkbox" name="" id=""> I hereby attest that all information given here are correct and complete</p>
+                    <button class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+            (function () {
+            'use strict'
+            
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.querySelectorAll('.needs-validation')
+            
+            // Loop over them and prevent submission
+            Array.prototype.slice.call(forms)
+                .forEach(function (form) {
+                form.addEventListener('submit', function (event) {
+                    if (!form.checkValidity()) {
+                    event.preventDefault()
+                    event.stopPropagation()
+                    }
+            
+                    form.classList.add('was-validated')
+                }, false)
+                })
+            })()
+        </script>    
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>
