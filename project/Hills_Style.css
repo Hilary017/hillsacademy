@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h2, h4{
+    color:rgb(164, 184, 73)
+}
+h3{
+    color: rgb(73, 184, 147);
+    font-family: 'Times New Roman', Times, serif;
+}
+.Our-Services{
+    border: 5px dotted rgb(65, 131, 21);
+}
+footer, .copyright{
+    color:rgb(236, 240, 234);
+}
+
+hr{
+    width: 100%;
+    background-color: green;
+    
+}
+/* .signup-form{
+    border: 3px solid green;
+    border-radius: 10%;
+    padding: 1rem 0;
+} */
+.joy{
+    color: blanchedalmond;
+}
+
+@media (min-width:720px) {
+    .active{
+        border-bottom: 2px solid darkblue;
+        padding-left: -1rem;
+        padding-right: -1rem;
+    }
+}
+
+.joy{
+    animation-name: Lary;
+    animation-duration: 30s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+}
+
+.navbar{
+    
+}
+
+@keyframes Lary {
+    0%{
+        background: url(https://babcockacademy.com.ng/wp-content/uploads/2020/10/DSC_0212-768x512.jpg) no-repeat;
+        background-size: cover;
+    }
+    50%{
+        background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTChbdNqNFYM-rLFKiWaWWjA0V6aJj3sAPFeA&usqp=CAU) no-repeat;
+        background-size: cover;
+    }
+    100%{
+        background: url(https://babcockacademy.com.ng/wp-content/uploads/2020/10/DSC_2358-768x513.jpg) no-repeat;
+        background-size: cover;
+    }
+}
+/* .sign-up{
+    height: 300px;
+    text-align: center;
+    padding: auto;
+}
+.sign-up-word{
+    color:rgb(150, 37, 37);
+    font-size: 2em;
+    margin: auto;
+    padding-top: 3rem;
+}
+
+.cat{
+    display: flex;
+    flex-direction: column;
+}
+.signup-link{
+    width: 20%;
+    background-color: azure;
+    color: brown;
+    border: 2px solid rgb(38, 179, 68);
+    border-radius: 30% 0;
+    margin: 0 auto;
+    text-decoration: none;
+} */
