@@ -1,0 +1,40 @@
+Theme color
+text color
+bg color
+display heading
+
+button 
+
+links as button
+
+button sizes
+
+
+
+
+utitlity classes
+margin and padding
+
+border
+
+box-shadow
+
+font-weight
+fw-bold
+fw-light
+fst-italic
+
+containers
+
+
+Grid system
+
+basic grid
+
+column widths
+
+responsive column widths
+
+justify columns
+
+
